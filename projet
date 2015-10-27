@@ -1,0 +1,81 @@
+/************************
+*						*
+*	PROJETS POSSIBLES	*
+*						*
+************************/
+
+- webforce3 CROUS
+- Réparation de PC à distance
+- Gestion de projet Web coopératif
+- Trip Advisor pour handicap
+- Site de rencontre (type meetic)
+- Echange de compétences/matériel
+- Stream
+- CVthèque
+
+/****************************
+*							*
+*	ARCHITECTURE BASIQUE	*
+*							*
+****************************/
+
+- CSS
+- FONTS
+- CONFIG
+- JS
+- INCLUDES
+- TEMPLATES
+- IMAGES
+- VIDEOS
+- BACKUP (bdd, ...)
+- CLASSES
+- AJAX
+- EXPORTS (ou DOCUMENTS)
+- TEMP
+- ARCHIVES
+
+/****************************
+*							*
+*	DECOUPAGE EN FONCTIONS	*
+*							*
+****************************/
+
+- TEMPLATES
+	- header (entêtes HTML, CSS et JS)
+	- footer
+	- menu (dynamique en fonction des droits)
+	- widget (à droite le plus souvent)
+- FONCTIONS
+    - saisie (génération de formulaire, contrôles, etc.)
+    - affichage (tableaux HTML, menus, éléments de page, ...)
+    - recherche (génération de requête SQL, tri des résultats, pagination, ...)
+    - inscription/login (sécurité, vérifications, ajout, mail de confirmation, 
+      mot de passe oublié, ...)
+    - connexion bdd (connexion, ...)
+    - sécurité (gestion des droits, logs, ...)
+    - traduction (avec des tableaux ou extension GetText)
+    - utilitaires (conversion, calculs, ...)
+
+    $langue = array('fr'=>array('accueuil'=>'accueil',
+    							'titre'=>'titre',
+    							'...'=>'...'),
+    				'gb'=>array('accueil'=>'home',
+    							'titre'=>'..',
+    							'...'=>'..'))
+    echo $langue['fr']['accueil']; // affiche accueil
+
+/****************************
+*							*
+*	PARCOURS UTILISATEUR	*
+*							*
+****************************/
+
+Navigation simple et intuitive!
+regarder les standards actuels
+
+/********************************
+*                               *
+*   PLANNING PAR PROJET         *
+*   PLANNING PAR DEVELOPPEUR    *
+*                               *
+********************************/

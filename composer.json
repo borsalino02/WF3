@@ -1,0 +1,11 @@
+{
+	"minimum-stability": "stable",
+	"require":
+	{
+	"wf3/w": "*",
+	"setasign/fpdf": "*",
+	"setasign/fpdi": "*",
+	"phpmailer/phpmailer": "*",
+	"phpoffice/phpexcel" : "*"
+}
+}

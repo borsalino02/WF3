@@ -1,0 +1,59 @@
+body {
+	background-color: pink;
+	background-image: url(../images/Celestia_3.png);
+	background-size: 50%;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+
+	height: 100%;
+	margin: 0;
+
+}
+
+* {
+	font-family: 'Indie Flower', cursive;
+}
+
+html {
+	height: 100%;
+}
+
+form {
+	margin: auto;
+	width: 50%;
+	background-color: #FFEBEE;
+	padding: 10px;
+	border-radius: 10px;
+    box-shadow: 2px 2px 5px #E288E1;
+}
+
+form > *, form label > * {
+	display: block;
+	width: 100%;
+}
+
+form > * {
+	margin-top: 1em;
+}
+form > *:first-child {
+	margin-top: 0;
+}
+
+input, textarea {
+	box-sizing: border-box;
+}
+
+
+li p {
+	background-color: #FFEBEE;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+li {
+	list-style-type: none;
+}
+
+time::before {
+	content: ", ";
+}

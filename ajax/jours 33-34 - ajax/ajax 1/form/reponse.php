@@ -1,0 +1,1 @@
+<?php echo "Bonjour, comment allez-vous " . $_GET['nom-de-famille']." ". $_GET['prenom']. " ?"; ?>

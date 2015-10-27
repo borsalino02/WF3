@@ -1,0 +1,47 @@
+h1 {
+	height: 60px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 2px solid red;
+	margin: auto;
+}
+h2 {
+	height: 30px;
+	text-align: center;
+	background-color: gray;
+	color: black;
+	border: 1px solid red;
+	margin: auto;
+}
+p {
+	text-align: right;
+	border: 1px solid blue;
+	padding-right: 40px;
+	font-style: italic;
+	background-color: #D0D8D3;
+	color: green;
+}
+th {
+	border: 1px solid red;
+	text-align: center;
+	background-color: blue;
+}
+tr {
+	border: 1px solid black;
+	text-align: center;
+}
+td {
+	border: 1px solid black;
+	text-align: center;
+}
+table {
+	width: 500px;
+	border: 1px solid blue;
+	text-align: center;
+	margin: auto;
+}
+.nombre
+{
+	text-align: right;
+}

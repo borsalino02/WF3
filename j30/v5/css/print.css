@@ -1,0 +1,10 @@
+#toto {
+	display: none;
+}
+#afficher-tout {
+	display:none;
+}
+.carte {
+	display: inline-block;
+	width:300px;
+}

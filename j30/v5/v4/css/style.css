@@ -1,0 +1,73 @@
+body {
+	background-color: #555;
+}
+
+.carte {
+	width: 350px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	border: 2px solid black;
+	background-color: #F0EAE1;
+	
+	/* == marge intérieure ==
+		haut : 30px
+		autres côtés : 10px
+	 */
+	padding: 30px 10px 10px;
+
+	/* équivalent :
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	*/
+
+	/* équivalent :
+	padding: 10px;
+	padding-top: 30px;
+	*/
+	/* équivalent :
+	padding: 30px 10px 10px 10px;
+	 */
+
+	/* pour que le bouton soit positionné
+		relativement à la carte
+	*/
+	position: relative;
+
+	display: inline-block;
+}
+
+
+.carte.selectionnee {
+	background-color: #64B1C2;
+}
+
+/* toutes les images dans une carte */
+.carte img {
+	width: 100%;
+}
+
+.close-button {
+	display: block;
+	width: 15px;
+	height: 15px;
+
+	background-image: url(../images/close.svg);
+	/* dimensionner l'image d'arrière-plan */
+	background-size: 15px;
+
+	position: absolute;
+	right: 2px;
+	top: 2px;
+
+
+}
+
+/*	ajouter un "x" dans le close-button
+.close-button::before {
+	content: "x";
+}
+*/

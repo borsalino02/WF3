@@ -1,0 +1,68 @@
+body {
+	background-color: #555;
+	text-align: center;
+}
+
+.carte {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid black;
+	background-color: #F0EAE1;
+	padding: 30px 10px 10px;
+	position: relative;
+	display: block;
+}
+
+
+.carte.selectionnee {
+	background-color: #64B1C2;
+}
+
+.carte img {
+	width: 100%;
+}
+
+.close-button {
+	display: block;
+	width: 15px;
+	height: 15px;
+
+	background-image: url(../images/close.svg);
+	/* dimensionner l'image d'arrière-plan */
+	background-size: 15px;
+
+	position: absolute;
+	right: 2px;
+	top: 2px;
+}
+
+
+#afficher-tout {
+	display: block;
+	border-radius: 10px;
+	border: none;
+	padding: 0.5em 1em;
+	margin-left: 20px;
+}
+
+#afficher-tout:hover {
+	background-color: #64B1C2;
+}
+
+
+#toto{
+	display: block;
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	/*pour les écrans plus large que 600px*/
+	.carte {
+		width: 300px;
+		display: inline-block;
+	}
+	#toto {
+		width: 300px;
+	}
+}

@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'SEASRN';
+	src: url('SEASRN.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+header, #intro {
+	background-color: #7dc0c0;
+	margin: 0px;
+	padding: 0px;
+}
+header ul li{
+	margin:0px;
+	font-family: Bazar;
+	color:  #f9ebd9;
+	display: inline-block;
+	width: 18%;
+	font-size: 54px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: left;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+h1 {
+	margin:0px;
+	background-color: #7dc0c0;
+	font-family: SEASRN;
+	color:  #585858;
+	font-size: 223.52px;
+	font-weight: 400;
+	/*line-height: 91px;*/
+	text-align: center;
+	text-shadow: 1px 2px 2px rgba(232, 244, 244, 0.3);
+	color: white;
+}
+blockquote p {
+	font-family: Bazar;
+	color:  #f8ecd8;
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: center;
+}

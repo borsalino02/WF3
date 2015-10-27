@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+	background-color: #fafafa;
+
+}
+h1 {
+	font-size:48px;
+	background-color: #eee;
+	padding: 30px;
+}
+#bouton-jouer {
+	background-color: #20b476;
+	color: white;
+	width: 160px;
+	height: 30px; 
+	border:none;
+	text-transform: uppercase;
+	margin-top: 90px;
+}
+
+/* plateau de jeu*/
+#plateau {
+		/* le plateau de jeu est caché au chargement du jeu*/
+	margin-top: 60px;
+	padding: 5px;
+	display: none;
+	width: 770px;
+	background-color: #c5bef1;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	border-radius: 30px;
+}
+
+/* les cartes du plateau*/
+#plateau > div {
+	float: left;
+	margin: 5px;
+}
+.cache {
+	width:100px;
+	height: 100px;
+	background-color: lightgray;
+	border-radius: 30px;
+}
+.image {
+	width:100px;
+	height:100px;
+	border-radius: 30px;
+	background-color: white;
+	display:none;
+	background-image: url('../image/cartes.png');
+}
+.cache:hover {
+	background-color: darkgrey;
+}
